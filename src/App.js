@@ -1,14 +1,11 @@
 import './App.css';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    </>
   );
 }
 
