@@ -23,7 +23,4 @@
     @apply font-epilogue;
   }
 
-  body {
-    @apply overflow-hidden;
-  }
 }

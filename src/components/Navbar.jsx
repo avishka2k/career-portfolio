@@ -3,12 +3,12 @@ import Logo from "../assets/logo.png";
 import { CgClose, CgMenu } from "react-icons/cg";
 
 function Navbar() {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
   const menuClick = () => setNav(!nav);
   return (
     <>
-      <div className="flex flex-row fixed text-primary-white w-screen h-28 bg-background-secondary">
-        <div className="container px-4 flex items-center flex-row m-auto justify-between">
+      <div className="flex flex-row fixed text-primary-white w-screen h-20 bg-background-secondary">
+        <div className="container px-5 lg:px-10 flex items-center flex-row m-auto justify-between">
           <div className="p">
             <img src={Logo} className="w-full " alt="" />
           </div>
@@ -39,7 +39,7 @@ function Navbar() {
         className={
           nav
             ? "hidden"
-            : "absolute w-full h-[100rem] mt-20 bg-background-secondary flex-col text-primary-white lg:hidden"
+            : "fixed w-full h-[100rem] mt-20 bg-background-secondary flex-col text-primary-white lg:hidden"
         }
       >
         <ul className="p-7">
