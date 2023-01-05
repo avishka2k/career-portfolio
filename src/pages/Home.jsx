@@ -13,6 +13,7 @@ import StarImg from "../assets/Star.webp";
 import Features from "../assets/features.webp";
 import GetStarted from "../assets/getStarted.webp";
 import Testimonials from "../components/Testimonials";
+import { VscTriangleDown } from "react-icons/vsc";
 
 function Home() {
   return (
@@ -72,7 +73,7 @@ function Home() {
         </div>
       </section>
       <section className="pt-20">
-        <div className="bg-background-secondary pb-10">
+        <div className="bg-background-secondary pb-20">
           <div className="container m-auto md:px-[5%] flex flex-col w-full px-5 pt-[66px] pb-[20px] border-white-opacity border-b md:border-none">
             <div className="flex flex-col gap-[5px]">
               <p className="uppercase text-light-primary tracking-[3px]">
@@ -254,11 +255,58 @@ function Home() {
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-3">
-            <Testimonials/>
+            <Testimonials
+              text="Outsource your digital marketing efforts, instead of handling in-house.
+        They can provide your business with a variety."
+              company="Twitter"
+              name="Graham Griffiths"
+              bgStyle=""
+            />
+            <Testimonials
+              text="A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions."
+              company="Meta Inc."
+              name="Alan Marti"
+              bgStyle="bg-primary-white"
+            />
+            <Testimonials
+              text="Outsource your digital marketing efforts, instead of handling in-house.
+        They can provide your business with a variety."
+              company="Twitter"
+              name="Graham Griffiths"
+              bgStyle=""
+            />
           </div>
-          <div className="flex flex-row pt-14 gap-2 m-auto">
-            <p className=" text-text-gray">Want more service?</p>
-            <p>Explore Now</p>
+          <div className="flex float-left m-auto pt-10">
+            <Button
+              text="see all"
+              btnstyle="bg-primary-white shadow text-text-back"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="pt-20">
+        <div className="bg-background-secondary pb-20 relative">
+          <div className="container items-center m-auto md:px-[5%] flex flex-col w-full px-5 pt-[66px] pb-[20px] md:border-none gap-5 md:flex-row-reverse justify-between">
+            <div className="flex flex-col gap-[5px] max-w-[25rem]">
+              <p className="uppercase text-light-primary tracking-[3px]">Faq</p>
+              <p className=" text-[40px] leading-[50px] font-bold text-primary-white">
+                Frequently Asked Questions
+              </p>
+              <p className="pt-5 text-white-opacity">
+                A digital agency is a business you hire to outsource your
+                digital marketing efforts, instead of handling in-house.
+              </p>
+              <p className=" text-primary-white pt-5">Contact Me</p>
+              <div className="flex flex-col">
+                <div className="flex flex-row border-white-opacity items-center justify-between border p-3">
+                  <p className=" text-primary-white text-[20px] font-bold">
+                    A digital agency is a business
+                  </p>
+                  <VscTriangleDown className="text-[20px] bg-light-primary p-[5px] rounded-[100rem] text-background-primary"/>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
