@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/career-portfolio/static/css/main.aae427e6.css",
+    "main.js": "/career-portfolio/static/js/main.74a7d130.js",
+    "static/media/p1.webp": "/career-portfolio/static/media/p1.521796712f3386f3b7e8.webp",
+    "static/media/gabriel.webp": "/career-portfolio/static/media/gabriel.478f670ce56547372d29.webp",
+    "static/media/homemain.webp": "/career-portfolio/static/media/homemain.acacae23f903f6a32e71.webp",
+    "static/media/getStarted.webp": "/career-portfolio/static/media/getStarted.9a328dbd5d1031cdcf3d.webp",
+    "static/media/features.webp": "/career-portfolio/static/media/features.61e4c6a0f74eac2c992d.webp",
+    "static/media/p2.webp": "/career-portfolio/static/media/p2.18234029911dd4ad841c.webp",
+    "static/media/p3.webp": "/career-portfolio/static/media/p3.9b9a48becc9ea4787af5.webp",
+    "static/media/Star.webp": "/career-portfolio/static/media/Star.88bdb13cf5f6f738301b.webp",
+    "index.html": "/career-portfolio/index.html",
+    "static/media/Path.svg": "/career-portfolio/static/media/Path.1d42b9ff3d29e19848712f804c680964.svg",
+    "main.aae427e6.css.map": "/career-portfolio/static/css/main.aae427e6.css.map",
+    "main.74a7d130.js.map": "/career-portfolio/static/js/main.74a7d130.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aae427e6.css",
+    "static/js/main.74a7d130.js"
+  ]
+}
