@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div className="flex flex-row fixed text-primary-white w-screen h-20 bg-background-secondary">
-        <div className="container px-5 lg:px-10 flex items-center flex-row m-auto justify-between">
+        <div className="container px-5 lg:px-[5%] flex items-center flex-row m-auto justify-between">
           <div className="p">
             <img src={Logo} className="w-full " alt="" />
           </div>
