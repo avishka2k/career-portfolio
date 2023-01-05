@@ -2,7 +2,7 @@ import React from "react";
 import { RiArtboardFill } from "react-icons/ri";
 import {HiOutlinePlus} from "react-icons/hi"
 
-function Home_Service_Dard(props) {
+function HomeServiceCard(props) {
   return (
     <div className="flex flex-col border-[1px] border-light-primary rounded-primary px-5 py-10 gap-5">
       <div className="flex flex-row items-center gap-5">
@@ -16,10 +16,10 @@ function Home_Service_Dard(props) {
         <div className="bg-primary-white rounded-[100rem] p-[10px] shadow">
           <HiOutlinePlus className=" text-light-primary w-[20px] h-[20px] m-auto" />
         </div>
-        <p className=" text-[14px] cursor-pointer">Learn more</p>
+        <p className="text-[14px] cursor-pointer">Learn more</p>
       </div>
     </div>
   );
 }
 
-export default Home_Service_Dard;
+export default HomeServiceCard;

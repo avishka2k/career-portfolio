@@ -7,7 +7,7 @@ function Navbar() {
   const menuClick = () => setNav(!nav);
   return (
     <>
-      <div className="flex flex-row fixed text-primary-white w-screen h-20 bg-background-secondary">
+      <div className="flex flex-row z-[1000] fixed text-primary-white w-screen h-20 bg-background-secondary">
         <div className="container px-5 lg:px-[5%] flex items-center flex-row m-auto justify-between">
           <div className="p">
             <img src={Logo} className="w-full " alt="" />
@@ -39,7 +39,7 @@ function Navbar() {
         className={
           nav
             ? "hidden"
-            : "fixed w-full h-[100rem] mt-20 bg-background-secondary flex-col text-primary-white lg:hidden"
+            : "fixed w-full z-[500] h-[100rem] mt-20 bg-background-secondary flex-col text-primary-white lg:hidden"
         }
       >
         <ul className="p-7">
