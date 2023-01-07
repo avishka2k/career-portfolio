@@ -23,4 +23,16 @@
     @apply font-epilogue;
   }
 
+  body::-webkit-scrollbar {
+    width: 12px;
+    background-color: gray;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #28293e;
+    border-radius: 3rem;
+    border: 2px solid gray;
+
+  }
+
 }
