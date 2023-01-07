@@ -11,10 +11,15 @@ module.exports = {
       "border-color": "#f3d1bf",
       "text-back": "#391400",
       "text-gray": "#391400ab",
+      "white-opacity": "#ffffff4a",
+      "background-3": "#f9e5da",
     },
-    fontFamily:{
-      'epilogue': ['Epilogue', 'sans-serif']
-    }
+    fontFamily: {
+      epilogue: ["Epilogue", "sans-serif"],
+    },
+    borderRadius: {
+      primary: "6px",
+    },
   },
   plugins: [],
 };
