@@ -48,9 +48,6 @@ function Navbar() {
           <li className="cursor-pointer p-3">Pricing</li>
           <li className="cursor-pointer p-3">Blog</li>
         </ul>
-        {/* <div className="flex flex-row items-center border rounded-primary border-white-opacity place-content-center w-[138px] h-[48px] ml-20">
-            <a href="#s">Contact</a>
-          </div> */}
       </div>
     </>
   );

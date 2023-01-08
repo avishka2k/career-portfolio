@@ -293,7 +293,7 @@ function Home() {
       <section className="pt-20">
         <div className="bg-background-secondary pb-20 relative">
           <div className="container m-auto md:px-[5%] lg:px-[10%] px-5 pt-[66px] pb-[20px] gap-5 ">
-            <div className="flex flex-col md:items-center md:flex-row gap-5 justify-between">
+            <div className="flex flex-col md:items-center md:flex-row lg:h-[20rem] gap-5 justify-between">
               <div className="flex flex-col gap-[5px] max-w-[30rem]">
                 <p className="uppercase text-light-primary tracking-[3px]">
                   Faq
@@ -307,7 +307,7 @@ function Home() {
                 </p>
                 <p className=" text-primary-white pt-5">Contact Me</p>
               </div>
-              <div className="md:min-w-[20rem] md:max-w-[25rem]">
+              <div className="md:min-w-[20rem]">
                 <div className="border-t border-x border-white-opacity overflow-hidden rounded-primary">
                   <Faq />
                 </div>
@@ -342,22 +342,21 @@ function Home() {
                 digital marketing efforts, instead of handling in-house.
               </p>
               <ul className="pt-5">
-                <li className="flex flex-row py-[5px] items-center gap-3 text-white-opacity text-[14px]">
+                <li className="flex flex-row py-[6px] items-center gap-3 text-white-opacity text-[14px]">
                   <MdEmail className=" text-[30px] text-primary-white bg-light-primary rounded-[100rem] p-1" />
                   Range including technical skills
                 </li>
-                <li className="flex flex-row py-[5px] items-center gap-3 text-white-opacity text-[14px]">
+                <li className="flex flex-row py-[6px] items-center gap-3 text-white-opacity text-[14px]">
                   <IoCall className=" text-[30px] text-primary-white bg-light-primary rounded-[100rem] p-1" />
                   Business understanding
                 </li>
-                <li className="flex flex-row py-[5px] items-center gap-3 text-white-opacity text-[14px]">
+                <li className="flex flex-row py-[6px] items-center gap-3 text-white-opacity text-[14px]">
                   <HiMapPin className=" text-[30px] text-primary-white bg-light-primary rounded-[100rem] p-1" />
                   Partner on the long run
                 </li>
               </ul>
             </div>
           </div>
-          <div className=" flex flex-col m-auto container md:px-[5%] md:flex-row"></div>
         </div>
       </section>
     </div>
