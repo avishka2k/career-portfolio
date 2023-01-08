@@ -17,6 +17,7 @@ import Faq from "../components/Faq";
 import { HiMapPin } from "react-icons/hi2";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -322,12 +323,39 @@ function Home() {
             <div className="flex flex-col bg-primary-white w-full max-w-[30rem] p-8 rounded-primary">
               <p className=" text-[24px] font-semibold">Get In Touch</p>
               <div className=" flex flex-col ">
-              <form action="">
-                <div className="mb-5"><input placeholder="Name" className="outline-none hover:border-light-primary focus:border-light-primary p-2 h-[2.5rem] w-full border rounded-primary border-light-primary" type="text" name="name" id="" /></div> 
-                <div className="mb-5"><input placeholder="Email" className="outline-none hover:border-light-primary focus:border-light-primary p-2 h-[2.5rem] w-full border rounded-primary border-light-primary" type="email" name="email" id="" /></div>
-                <div className="mb-5"> <textarea placeholder="Message" className="outline-none hover:border-light-primary focus:border-light-primary p-2 w-full border rounded-primary border-light-primary" name="Message"  id="" rows="5"></textarea></div>
-                <div className="flex float-right my-5"><Button btnstyle="bg-light-primary" text="Submit Now"/></div>
-              </form>
+                <form action="">
+                  <div className="mb-5">
+                    <input
+                      placeholder="Name"
+                      className="outline-none hover:border-light-primary focus:border-light-primary p-2 h-[2.5rem] w-full border rounded-primary border-light-primary"
+                      type="text"
+                      name="name"
+                      id=""
+                    />
+                  </div>
+                  <div className="mb-5">
+                    <input
+                      placeholder="Email"
+                      className="outline-none hover:border-light-primary focus:border-light-primary p-2 h-[2.5rem] w-full border rounded-primary border-light-primary"
+                      type="email"
+                      name="email"
+                      id=""
+                    />
+                  </div>
+                  <div className="mb-5">
+                    {" "}
+                    <textarea
+                      placeholder="Message"
+                      className="outline-none hover:border-light-primary focus:border-light-primary p-2 w-full border rounded-primary border-light-primary"
+                      name="Message"
+                      id=""
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <div className="flex float-right my-5">
+                    <Button btnstyle="bg-light-primary" text="Submit Now" />
+                  </div>
+                </form>
               </div>
             </div>
             <div className="flex flex-col gap-[5px] max-w-[30rem]">
@@ -359,6 +387,32 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="pt-20">
+        <div className="container m-auto lg:px-[10%] flex flex-col w-full px-5 md:flex-row-reverse md:justify-between md:items-center gap-5">
+          <img
+            src={Gabriel}
+            alt=""
+            className="md:max-w-[25rem] lg:max-w-[35rem]"
+          />
+          <div className="flex flex-col gap-[5px] max-w-[450px]">
+            <p className="uppercase text-light-primary tracking-[3px]">
+              Gabriel Pires
+            </p>
+            <p className="text-[40px] font-bold leading-[50px] pb-5">
+              Help To Build Your Dream Project
+            </p>
+            <p className=" text-text-gray">
+              A digital agency is a business you hire to outsource your digital
+              marketing efforts, instead of handling in-house.
+            </p>
+            <div className="flex float-left mt-5">
+              <Button text="Contact Me" btnstyle="bg-light-primary shadow" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer/>
     </div>
   );
 }
