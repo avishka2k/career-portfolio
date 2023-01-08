@@ -5,6 +5,7 @@ module.exports = {
     colors: {
       "background-primary": "#fdf0e9",
       "background-secondary": "#28293e",
+      "background-opacity": "#3A3C56",
       "light-primary": "#ef6d58",
       "dart-primary": "#b550f8",
       "primary-white": "#ffffff",
