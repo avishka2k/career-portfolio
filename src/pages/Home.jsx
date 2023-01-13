@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
-import MainImg from "../assets/homemain.webp";
+import MainImg from "../assets/homemain2.webp";
 import HomeServiceCard from "../components/HomeServiceCard";
 import ImageCardBtn from "../components/ImageCardBtn";
 import Image1 from "../assets/p1.webp";
@@ -31,9 +31,9 @@ function Home() {
                 alt=""
                 className="w-[20rem] md:max-w-[45%] md:w-full"
               />
-              <div className="flex flex-col text-left gap-3 md:max-w-[30rem]">
+              <div className="flex flex-col text-left gap-5 md:max-w-[30rem]">
                 <p className="text-light-primary uppercase text-[16px] tracking-[3px]">
-                  Gabriel Pires
+                  Avishka Prabath
                 </p>
                 <p className="text-[56px] md:text-[72px] text-primary-white font-bold leading-[70px]">
                   The Simple, Clean Design
@@ -50,7 +50,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <section className="pt-20">
+      <section className="flex flex-col md:min-h-screen">
         <div className="container flex flex-col px-5 md:px-[5%] lg:px-[10%] m-auto">
           <div className="flex flex-col text-center gap-3 max-w-[30rem] m-auto">
             <p className="uppercase text-light-primary tracking-[3px]">
@@ -76,7 +76,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="pt-20">
+      <section className="flex flex-col md:min-h-screen">
         <div className="bg-background-secondary pb-20">
           <div className="container m-auto md:px-[5%] lg:px-[10%] flex flex-col w-full px-5 pt-[66px] pb-[20px] border-white-opacity border-b md:border-none">
             <div className="flex flex-col gap-[5px]">
@@ -119,7 +119,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="pt-20">
+      <section className="flex flex-col md:min-h-screen">
         <div className="container m-auto lg:px-[10%] flex flex-col w-full px-5 pb-[20px] md:flex-row md:justify-between md:items-center gap-5">
           <img
             src={Gabriel}
@@ -128,7 +128,7 @@ function Home() {
           />
           <div className="flex flex-col gap-[5px] max-w-[450px]">
             <p className="uppercase text-light-primary tracking-[3px]">
-              Gabriel Pires
+              Avishka Prabath
             </p>
             <p className="text-[40px] font-bold leading-[50px] pb-5">
               Professional Web Designer
@@ -147,13 +147,12 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="pt-20">
         <div className="flex flex-col justify-between container m-auto md:px-[5%] lg:px-[10%] md:flex-row px-5 gap-3">
           <GabrielCard number="42%" cardText="Years of experience" />
           <GabrielCard number="73%" cardText="Projects Done" />
         </div>
       </section>
+      
       <section className="pt-20">
         <div className="bg-background-secondary ">
           <div className="container md:items-center m-auto md:px-[5%] lg:px-[10%] flex flex-col w-full px-5 pt-[5rem] pb-[5rem] md:border-none gap-5 md:flex-row-reverse justify-between">
@@ -250,7 +249,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="">
+      <section className="flex flex-col md:min-h-screen">
         <div className="container flex flex-col px-5 md:px-[5%] lg:px-[10%] m-auto">
           <div className="flex flex-col text-center gap-3 max-w-[30rem] m-auto">
             <p className="uppercase text-light-primary tracking-[3px]">
@@ -318,7 +317,7 @@ function Home() {
         </div>
       </section>
       <section className="pt-20">
-        <div className="bg-background-secondary ">
+        <div className="bg-background-secondary flex flex-col md:min-h-screen">
           <div className="container md:items-center gap-10 m-auto md:px-[5%] lg:px-[10%] flex flex-col w-full px-5 pt-[5rem] pb-[5rem] md:border-none md:flex-row justify-between">
             <div className="flex flex-col bg-primary-white w-full max-w-[30rem] p-8 rounded-primary">
               <p className=" text-[24px] font-semibold">Get In Touch</p>
@@ -387,7 +386,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="pt-20">
+      <section className="flex flex-col md:min-h-screen">
         <div className="container m-auto lg:px-[10%] flex flex-col w-full px-5 md:flex-row-reverse md:justify-between md:items-center gap-5">
           <img
             src={Gabriel}
@@ -396,7 +395,7 @@ function Home() {
           />
           <div className="flex flex-col gap-[5px] max-w-[450px]">
             <p className="uppercase text-light-primary tracking-[3px]">
-              Gabriel Pires
+              Avishka Prabath
             </p>
             <p className="text-[40px] font-bold leading-[50px] pb-5">
               Help To Build Your Dream Project
@@ -411,8 +410,7 @@ function Home() {
           </div>
         </div>
       </section>
-
-      <Footer/>
+      <Footer />
     </div>
   );
 }
